@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html > body {
+    font-family: "GmarketSansMedium";
+    text-underline-position: under;
+}
+
+textarea#exampleTextarea {
+    background: gray;
+}
+
+.checkbox-lg .custom-control-label::before,
+.checkbox-lg .custom-control-label::after {
+    top: .8rem;
+    width: 1.55rem;
+    height: 1.55rem;
+}
+
+.checkbox-lg .custom-control-label {
+    padding-top: 13px;
+    padding-left: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea {
+    resize : none;
+}
+
+
+.badge {
+    font-size: 15px;
+}
+
+
+.eventTitle {
+    font-weight: 800;
+    color: #4294F2;
+    background: rgba(66, 148, 255, 0.26);
+    padding: 6px 20px;
+    font-weight: 400;
+    border-radius: 26px;
+    display: inline-block;
+}
+
+.thumbnail:hover {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, blue 0%, skyblue 100%);
+    border-image-slice: 1;
+}
+
+
+
